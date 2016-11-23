@@ -1,0 +1,321 @@
+/*
+ * Start Bootstrap - Business Frontpage (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+ 
+body {
+    margin: 0, auto;
+    background-color: #ccc;
+    /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+
+.tit{
+    text-shadow: 0 0 20px #555;
+    color: #fff;
+    z-index: 999;
+    padding-top: 25vh;
+    width: 200px;
+    height: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    transform: translateY(-50%);
+    margin-bottom: 20vh;
+    
+}
+.name,.st{
+    color: orange;
+
+    width: 100% ;
+}
+.name {
+    font-size: 2em;
+}
+.st{
+
+    font-size: 2em;
+}
+.logo{
+    color: black;
+
+}
+.bt{
+    text-align: center;
+    border: 2px solid orange;
+     width: 100px;
+    height: 1.5em;
+    margin-right: auto;
+    margin-left: auto;
+    transform: translateY(-50%);
+    font-size: 1.2em;
+    border-radius: 4px;
+
+    background-color: rgba(50, 50, 50, 0.7);
+   
+}
+.bt a:visited, a:active, a:link {
+    color: orange;
+}
+.bt a:hover{
+    color: green;
+    font-weight: bold;
+    text-shadow: 0 0 20px #000;
+
+}
+
+
+.bt2{
+    width: 100px;
+    height: 30px;
+    float: left;
+    text-align: center;
+    position: absolute;
+    right: 0;
+    bottom: 15%;
+    transform: translateX(-50%);
+    z-index: 999;
+}
+.bt2 a:visited, a:active, a:link {
+    color: orange;
+}
+.bt2 a:hover{
+    color: gray;
+
+    text-shadow: 0 0 20px #000;
+}
+
+.bt3{
+    width: 100px;
+    height: 30px;
+    float: left;
+    text-align: center;
+    position: absolute;
+    right: 0;
+    bottom: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+}
+.bt3 a:visited, a:active, a:link {
+    color: orange;
+}
+.bt3 a:hover{
+    color: gray;
+
+    text-shadow: 0 0 20px #000;
+}
+.logoImg{
+    width: 100px;
+    height: 150px;
+    background-image: url('../img/owl.png');
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: contain;
+    opacity: 0.8;
+    filter: drop-shadow(2px 2px 2px white) 
+          drop-shadow(-1px -1px 0 white);
+}
+.section0{
+    height: 95vh;
+    position: relative;
+    background-image: url('../img/tree.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.img-center {
+    margin: 0 auto;
+}
+.section1{
+    position: relative;
+
+}
+.section1 .row{
+    margin-right: 20px;
+
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+.section1 .row > div > p{
+    font-size: 1.2em;
+}
+
+.section2{
+    background-color: #333;
+    padding-bottom: 40px;
+    color: #ddd;
+    position: relative;
+}
+.section2 strong{
+    color: orange;
+}
+.owlchen{
+    color: darkorange;
+}
+.section2 li{
+    list-style-type:none;
+}
+.section2 h2{
+    color: white;
+     text-shadow: 0 0 4px #ccc;
+}
+.section2 a:visited, a:active, a:link {
+    color: orange;
+}
+.section2 a:hover{
+    color: darkorange;
+
+    text-shadow: 0 0 20px #000;
+}
+.code,.web,.coop,.me{
+    margin-left: 40px;
+}
+
+progress, progress[role] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  background-size: auto;
+  height: 20px;
+  width: 60%;
+}
+
+.skill-list {
+  list-style: none;
+  margin: 0;
+  padding: 1em;
+
+}
+
+.skill {
+  margin-bottom: 1em;
+  position: relative;
+
+}
+.skill h5 {
+  color: #fff;
+  left: 1em;
+  line-height: 1;
+  position: absolute;
+  top: -0.5em;
+}
+.skill p {
+  color: #fff;
+  left: 18em;
+  line-height: 1;
+  font-size: 1em;
+  position: absolute;
+  top: 0.3em;
+  display: none;
+}
+.skill ::-webkit-progress-value {
+  -webkit-animation: bar-fill 2s;
+  -moz-animation: bar-fill 2s;
+  animation: bar-fill 2s;
+  width: 0px;
+  border-radius:0 10px 10px 0;
+}
+
+.skill-1::-webkit-progress-value {
+  background: #009688;
+}
+
+.skill-1::-moz-progress-bar {
+  background: #009688;
+}
+
+.skill-2::-webkit-progress-value {
+  background: #00ACC1;
+}
+
+.skill-2::-moz-progress-bar {
+  background: #00ACC1;
+}
+
+.skill-3::-webkit-progress-value {
+  background: #039BE5;
+}
+
+.skill-3::-moz-progress-bar {
+  background: #039BE5;
+}
+
+.skill-4::-webkit-progress-value {
+  background: #EF5350;
+}
+
+.skill-4::-moz-progress-bar {
+  background: #EF5350;
+}
+
+.skill-5::-webkit-progress-value {
+  background: #F06292;
+}
+
+.skill-5::-moz-progress-bar {
+  background: #F06292;
+}
+
+.me{
+    font-size: 1.3em;
+}
+
+@-webkit-keyframes bar-fill {
+  0% {
+    width: 0;
+  }
+}
+@keyframes bar-fill {
+  0% {
+    width: 0;
+  }
+}
+
+.fa-3{
+    font-size: 4em;
+}
+.fa-6{
+    font-size: 16em;
+}
+.section3{
+    height: 61.8vh;
+    background-image: url('../img/wall.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.sec3Text{
+    padding-top: 20vh;
+    font-size: 2em;
+    font-weight: bold;
+    color: #ccc;
+    text-shadow: 5px 5px 5px #333 ;
+}
+.footer {
+    height: 38.2vh;
+    position: relative;
+    background-color: #ddd;
+    background-image: url('../img/owl.png');
+    background-size: contain;
+   
+}
+.footerText{
+    padding-left: 35vw;
+    background-color: rgba(50,50,50,0.8);
+    
+    height: 38.2vh;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #ddd;
+    text-align-last: left;
+}
+.footerText a:visited, a:active, a:link {
+    color: #ddd;
+}
+.footerText a:hover{
+    color: #aaa;
+}
