@@ -129,6 +129,8 @@ body {
 }
 .section1{
     position: relative;
+    color: white;
+    background-color: #A1887F;
 
 }
 .section1 .row{
